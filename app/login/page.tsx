@@ -1,9 +1,13 @@
+import { SignIn } from "@/components/SignIn";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 
-export default async function Login() {
+export default function Login() {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <SignIn />
+      <Footer />
+    </>
   );
 }
