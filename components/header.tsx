@@ -17,7 +17,7 @@ export default async function Header() {
           <SignOut />
         ) : (
           <Link href="/login">
-            <Button>Se connecter</Button>
+            <Button className="bg-white text-black">Se connecter</Button>
           </Link>
         )}
       </div>
